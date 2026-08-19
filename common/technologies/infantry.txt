@@ -1855,27 +1855,22 @@ technologies = {
 
 	support_weapons = {
 
-		enable_subunits = {
-			fire_support
-			mot_fire_support
+		category_infantry_and_bicycle = {
+			defense = 0.05
+			breakthrough = 0.05
 		}
-
-		# category_infantry_and_bicycle = {
-		# 	defense = 0.05
-		# 	breakthrough = 0.05
-		# }
-		# category_cavalry = {
-		# 	defense = 0.02
-		# 	breakthrough = 0.02
-		# }		
-		# category_special_forces_leg_infantry = {
-		# 	defense = 0.03
-		# 	breakthrough = 0.03
-		# }
-		# category_vehicle_infantry = {
-		# 	defense = 0.05
-		# 	breakthrough = 0.05
-		# }
+		category_cavalry = {
+			defense = 0.02
+			breakthrough = 0.02
+		}		
+		category_special_forces_leg_infantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		category_vehicle_infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
 		
 		path = {
 			leads_to_tech = support_weapons2
@@ -1936,38 +1931,22 @@ technologies = {
 	
 	support_weapons2 = {
 
-		field_guns = {
-			defense = 0.1
-			soft_attack = 0.1
-		}
-		fire_support = {
-			defense = 0.15
-			breakthrough = 0.15
-			soft_attack = 0.1
-		}
-
-		mot_fire_support = {
-			defense = 0.15
+		category_infantry_and_bicycle = {
+			defense = 0.05
 			breakthrough = 0.05
-			soft_attack = 0.1
 		}
-
-		# category_infantry_and_bicycle = {
-		# 	defense = 0.05
-		# 	breakthrough = 0.05
-		# }
-		# category_cavalry = {
-		# 	defense = 0.02
-		# 	breakthrough = 0.02
-		# }		
-		# category_special_forces_leg_infantry = {
-		# 	defense = 0.03
-		# 	breakthrough = 0.03
-		# }
-		# category_vehicle_infantry = {
-		# 	defense = 0.05
-		# 	breakthrough = 0.05
-		# }
+		category_cavalry = {
+			defense = 0.02
+			breakthrough = 0.02
+		}		
+		category_special_forces_leg_infantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		category_vehicle_infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
 
 		#Once we have more custom SP's this should be moved deeper into the tree
 		on_research_complete = {
@@ -2042,39 +2021,22 @@ technologies = {
  
 	support_weapons3 = {
 
-		field_guns = {
-			defense = 0.1
-			soft_attack = 0.1
-		}
-
-		fire_support = {
-			defense = 0.15
-			breakthrough = 0.15
-			soft_attack = 0.1
-		}
-
-		mot_fire_support = {
-			defense = 0.15
+		category_infantry_and_bicycle = {
+			defense = 0.05
 			breakthrough = 0.05
-			soft_attack = 0.1
 		}
-
-		# category_infantry_and_bicycle = {
-		# 	defense = 0.05
-		# 	breakthrough = 0.05
-		# }
-		# category_cavalry = {
-		# 	defense = 0.02
-		# 	breakthrough = 0.02
-		# }		
-		# category_special_forces_leg_infantry = {
-		# 	defense = 0.03
-		# 	breakthrough = 0.03
-		# }
-		# category_vehicle_infantry = {
-		# 	defense = 0.05
-		# 	breakthrough = 0.05
-		# }
+		category_cavalry = {
+			defense = 0.02
+			breakthrough = 0.02
+		}		
+		category_special_forces_leg_infantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		category_vehicle_infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
 		
 		path = {
 			leads_to_tech = support_weapons4
@@ -2126,38 +2088,22 @@ technologies = {
 	
 	support_weapons4 = {
 
-		field_guns = {
-			defense = 0.1
-			soft_attack = 0.1
-		}
-
-		fire_support = {
-			defense = 0.15
-			breakthrough = 0.15
-			soft_attack = 0.1
-		}
-		mot_fire_support = {
-			defense = 0.15
+		category_infantry_and_bicycle = {
+			defense = 0.05
 			breakthrough = 0.05
-			soft_attack = 0.1
 		}
-
-		# category_infantry_and_bicycle = {
-		# 	defense = 0.05
-		# 	breakthrough = 0.05
-		# }
-		# category_cavalry = {
-		# 	defense = 0.02
-		# 	breakthrough = 0.02
-		# }		
-		# category_special_forces_leg_infantry = {
-		# 	defense = 0.03
-		# 	breakthrough = 0.03
-		# }
-		# category_vehicle_infantry = {
-		# 	defense = 0.05
-		# 	breakthrough = 0.05
-		# }
+		category_cavalry = {
+			defense = 0.02
+			breakthrough = 0.02
+		}		
+		category_special_forces_leg_infantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		category_vehicle_infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
 		
 		path = {
 			leads_to_tech = support_weapons_a
@@ -2205,387 +2151,9 @@ technologies = {
 		}
 	}
 
-
-	
-	advanced_infantry_weapons_b = {
-
-		enable_equipments = {
-			infantry_equipment_x
-		}	
-		
-		path = {
-			leads_to_tech = advanced_infantry_weapons_e
-			research_cost_coeff = 1
-		}	
-
-		research_cost = 1.5
-		start_year = 1945
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1945 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		#special_project_specialization = { specialization_land }
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1948.1.6"
-			}
-   
-			modifier = {
-				factor = 2
-				date > "1951.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1952.1.1"
-			}			
-		}
-	}
-	
-	advanced_infantry_weapons_c = {
-
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
-		cavalry = {
-			soft_attack = 0.1
-		}
-		camelry = {
-			soft_attack = 0.1
-		}			
-
-		motorized = {
-			soft_attack = 0.1
-		}
-		mechanized = {
-			soft_attack = 0.1
-		}
-		mot_shocktroop = {
-			soft_attack = 0.1
-		}
-		mech_shocktroop = {
-			soft_attack = 0.1
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.1
-		}	
-		
-		path = {
-			leads_to_tech = advanced_infantry_weapons_f
-			research_cost_coeff = 1
-		}	
-
-		research_cost = 1.5
-		start_year = 1949
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1949 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		#special_project_specialization = { specialization_land }
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1950.1.6"
-			}
-   
-			modifier = {
-				factor = 2
-				date > "1951.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1952.1.1"
-			}			
-		}
-	}
-	
-	advanced_infantry_weapons_d = {
-
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
-		cavalry = {
-			soft_attack = 0.1
-		}
-		camelry = {
-			soft_attack = 0.1
-		}		
-
-		motorized = {
-			soft_attack = 0.1
-		}
-		mechanized = {
-			soft_attack = 0.1
-		}
-		mot_shocktroop = {
-			soft_attack = 0.1
-		}
-		mech_shocktroop = {
-			soft_attack = 0.1
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.1
-		}
-
-		research_cost = 1.5
-		start_year = 1953
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1953 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		#special_project_specialization = { specialization_land }
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1952.1.6"
-			}
-   
-			modifier = {
-				factor = 2
-				date > "1953.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1954.1.1"
-			}			
-		}
-	}
-	
-	advanced_infantry_weapons_e = {
-
-		enable_equipments = {
-			infantry_equipment_x_2
-		}	
-
-		research_cost = 1.5
-		start_year = 1948
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1948 }
-		}
-		
-		path = {
-			leads_to_tech = advanced_infantry_weapons_c
-			research_cost_coeff = 1
-		}
-
-		categories = {
-			infantry_weapons
-		}
-		#special_project_specialization = { specialization_land }
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1954.1.6"
-			}
-   
-			modifier = {
-				factor = 2
-				date > "1955.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1956.1.1"
-			}			
-		}
-	}
-
-	advanced_infantry_weapons_f = {
-
-		enable_equipments = {
-			infantry_equipment_x_3
-		}	
-		
-		path = {
-			leads_to_tech = advanced_infantry_weapons_d
-			research_cost_coeff = 1
-		}	
-
-		research_cost = 1.5
-		start_year = 1952
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1952 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		#special_project_specialization = { specialization_land }
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1948.1.6"
-			}
-   
-			modifier = {
-				factor = 2
-				date > "1951.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1952.1.1"
-			}			
-		}
-	}
-
 	
 	
 ###------> New Infantry Anti-Tank   <><> <><> <><> <><> <><>
-
-	infantry_at_a = {
-
-		category_all_infantry = {
-			hard_attack = 0.25
-			ap_attack = 1
-		}
-		
-		path = {
-			leads_to_tech = infantry_at_b
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1948
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1948 }
-		}
-		
-		categories = {
-			infantry_weapons
-			anti_tank_infantry_weapons
-		}
-		#special_project_specialization = { specialization_land }
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1947.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1948.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1949.1.1"
-			}			
-		}
-	}
-	
-	infantry_at_b = {
-
-		category_all_infantry = {
-			hard_attack = 0.25
-			ap_attack = 1
-		}
-		
-		path = {
-			leads_to_tech = infantry_at_c
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1950
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1950 }
-		}
-		
-		categories = {
-			infantry_weapons
-			anti_tank_infantry_weapons
-		}
-		#special_project_specialization = { specialization_land }
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1949.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1950.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1951.1.1"
-			}			
-		}
-	}
-	
-	infantry_at_c = {
-
-		category_all_infantry = {
-			hard_attack = 0.25
-			ap_attack = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1953
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1953 }
-		}
-		
-		categories = {
-			infantry_weapons
-			anti_tank_infantry_weapons
-		}
-		#special_project_specialization = { specialization_land }
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1952.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1953.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1954.1.1"
-			}			
-		}
-	}
 	
 	
 ###------> X   <><> <><> <><> <><> <><>
@@ -3313,7 +2881,7 @@ technologies = {
 	
 	support_weapons_a = {
 
-		category_infantry_and_bicycle = {	#TODO_r56: Check if these should be replaced with fire support bonuses too
+		category_infantry_and_bicycle = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -3340,105 +2908,6 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = -2 y = @1946 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		#special_project_specialization = { specialization_land }
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	support_weapons_b = {
-
-		category_infantry_and_bicycle = {	#TODO_r56: Check if these should be replaced with fire support bonuses too
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		category_cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
-		category_special_forces_leg_infantry = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		category_vehicle_infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-
-		path = {
-			leads_to_tech = support_weapons_c
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1950
-		folder = {
-			name = infantry_folder
-			position = { x = -2 y = @1950 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		#special_project_specialization = { specialization_land }
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	night_vision_a = {
-
-		land_night_attack = 0.15
-		air_strategic_bomber_night_penalty = -0.1
-		
-
-		research_cost = 2
-		start_year = 1951
-		folder = {
-			name = infantry_folder
-			position = { x = -1 y = @1951 }
-		}
-		
-		categories = {
-			night_vision
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	support_weapons_c = {
-
-		category_infantry_and_bicycle = {	#TODO_r56: Check if these should be replaced with fire support bonuses too
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		category_cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
-		category_special_forces_leg_infantry = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		category_vehicle_infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		
-		research_cost = 1.5
-		start_year = 1954
-		folder = {
-			name = infantry_folder
-			position = { x = -2 y = @1954 }
 		}
 		
 		categories = {
@@ -4553,75 +4022,6 @@ technologies = {
 			factor = 1
 		}
 	}	
-	
-	camo1948 = {
-
-		category_all_infantry = {
-			ap_attack = 0.02
-			breakthrough = 0.02
-			hard_attack = 0.02
-		}
-		category_support_battalions = {
-			ap_attack = 0.02
-			breakthrough = 0.02
-			hard_attack = 0.02
-		}
-		
-		cas_damage_reduction = 0.1
-		
-		path = {
-			leads_to_tech = camo1955
-			research_cost_coeff = 1
-		}	
-
-		research_cost = 1.6
-		start_year = 1947
-		folder = {
-			name = infantry_folder
-			position = { x = 3 y = @1947 }
-		}
-		
-		categories = {
-			infantry_weapons
-			camo_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	camo1955 = {
-
-		category_all_infantry = {
-			ap_attack = 0.02
-			breakthrough = 0.02
-			hard_attack = 0.02
-		}
-		category_support_battalions = {
-			ap_attack = 0.02
-			breakthrough = 0.02
-			hard_attack = 0.02
-		}
-		
-		cas_damage_reduction = 0.1
-
-		research_cost = 2
-		start_year = 1954
-		folder = {
-			name = infantry_folder
-			position = { x = 3 y = @1954 }
-		}
-		
-		categories = {
-			infantry_weapons
-			camo_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	######### FROM ITALIAN FOCUS ##########
 	blackshirt_assault_battalion_tech = {
@@ -5046,161 +4446,6 @@ technologies = {
 			combat_width = -0.2
 		}
 
-	}
-
-	##### FROM CZECH FOCUS #####
-	#Pfot
-	MUN_CZE_establish_air_defense_zones = { #gained from Establish Air Defense Zones
-
-		allow = {
-			always = no #UPDATE CZE_establish_air_defense_zones_tt if changing
-		}
-
-		research_cost = -1
-		start_year = 1936
-
-		static_anti_air_hit_chance_factor = 0.1
-
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	MUN_merge_the_financial_and_state_guard_tech = { #gained from Merge the Financial and State Guard
-
-		allow = {
-			always = no #UPDATE CZE_merge_the_financial_and_state_guard_tt if changing
-		}
-
-		research_cost = -1
-		start_year = 1936
-
-		military_police = {
-			max_strength = 5 
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	
-	MUN_anti_tank_development_tech = { #gained from anti tank development
-
-		research_cost = 1
-
-		allow = {
-			always = no #UPDATE CZE_anti_tank_development_tech_tt if changing
-		}
-
-		anti_tank = {
-			ap_attack = 0.05
-		}
-
-		anti_tank_brigade = {
-			ap_attack = 0.05
-		}
-
-		artillery = {
-			ap_attack = 0.05
-		}
-
-		artillery_brigade = {
-			ap_attack = 0.05
-		}
-	}
-
-	MUN_horska_artillery = { #gained from Develop Horska Artillery
-
-		research_cost = 1
-
-		allow = {
-			always = no #UPDATE CZE_develop_horska_artillery_tech_tt if changing
-		}
-
-		artillery_brigade = {
-			mountain = {
-				attack = 0.10 
-				movement = 0.10
-			}
-			hills = {
-				attack = 0.10 
-				movement = 0.10 
-			}
-		}
-	}
-
-	MUN_recon_in_force = { #gained from recon in force
-
-		research_cost = 1
-
-		allow = {
-			always = no #UPDATE CZE_recon_in_force_tech_tt if changing
-		}
-
-		category_recon = {
-			max_strength = 5
-			recon = 0.10
-		}
-	}
-
-	MUN_improved_supply_dumps = { #gained from logistics beyond the sudetes
-
-		research_cost = 1
-
-		allow = {
-			always = no #UPDATE CZE_logistics_beyond_the_sudetes_tt if changing
-		}
-
-		logistics_company = {
-			supply_consumption_factor = -0.1
-		}
-	}
-
-	MUN_intergrate_fortification_engineers = { #gained intergrate fortification engineers
-		research_cost = 1
-
-		allow = {
-			always = no #UPDATE CZE_logistics_beyond_the_sudetes_tt if changing
-		}
-
-		engineer = {
-			entrenchment = 0.1
-			fort = {
-				defence = 0.10
-			}
-		}
-	}
-
-	MUN_camo_netting = {
-		research_cost = 1
-
-		allow = {
-			always = no #UPDATE CZE_concealment_efforts_tech_tt if changing
-		}
-
-		category_light_infantry = {
-			forest = {
-				defence = 0.10
-			}
-		}
-	}
-	#End Pfot
-
-	#### FROM AUSTRALIAN FOCUS  ####
-
-	northern_territory_recon_support_tech = {
-
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			northern_territory_recon_support
-		}
 	}
 ###------> X <><> <><> <><> <><> <><>	
 

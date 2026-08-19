@@ -22,11 +22,16 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = industrial_expansion_tech_1 #RT56 RP
+			research_cost_coeff = 1
+		}		
+		
 		research_cost = 1.5
 		start_year = 1936
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 0 }
+			position = { x = 2 y = 0 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -56,7 +61,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 4 }
+			position = { x = 2 y = 4 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -90,7 +95,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 6 }
+			position = { x = 2 y = 6 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -112,7 +117,7 @@ technologies = {
 
 		equipment_conversion_speed = 0.15 #R56
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.075
 		
 		path = {
 			leads_to_tech = flexible_line
@@ -130,7 +135,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 8 }
+			position = { x = 2 y = 8 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -152,7 +157,7 @@ technologies = {
 	
 	flexible_line = {
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.075
 		line_change_production_efficiency_factor = 0.2
 		
 		path = {
@@ -169,7 +174,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 10 }
+			position = { x = 1 y = 10 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -189,7 +194,7 @@ technologies = {
 	
 	streamlined_line = {
 
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.075
 		production_factory_efficiency_gain_factor = 0.1
 		
 		path = {
@@ -206,7 +211,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 10 }
+			position = { x = 3 y = 10 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -248,7 +253,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 2 }
+			position = { x = 6 y = 2 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -316,7 +321,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 4 }
+			position = { x = 6 y = 4 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -356,7 +361,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 6 }
+			position = { x = 6 y = 6 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -395,7 +400,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 8 }
+			position = { x = 6 y = 8 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -435,7 +440,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 10 }
+			position = { x = 6 y = 10 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -487,7 +492,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 2 }
+			position = { x = 8 y = 2 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -558,7 +563,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 4 }
+			position = { x = 8 y = 4 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -600,7 +605,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 6 }
+			position = { x = 8 y = 6 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -642,7 +647,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 8 }
+			position = { x = 8 y = 8 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -685,7 +690,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 10 }
+			position = { x = 8 y = 10 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -728,7 +733,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 0 }
+			position = { x = 4 y = 0 } #RT56 RP
 		}
 		
 		categories = {
@@ -820,7 +825,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 2 }
+			position = { x = 6 y = 2 } #RT56 RP
 		}
 		
 		categories = {
@@ -886,7 +891,7 @@ technologies = {
 		start_year = 1937
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 4 }
+			position = { x = 6 y = 4 } #RT56 RP
 		}
 		
 		categories = {
@@ -943,7 +948,7 @@ technologies = {
 		start_year = 1939
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 6 }
+			position = { x = 6 y = 6 } #RT56 RP
 		}
 		
 		categories = {
@@ -991,7 +996,7 @@ technologies = {
 		start_year = 1941
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 8 }
+			position = { x = 6 y = 8 } #RT56 RP
 		}
 		
 		categories = {
@@ -1035,7 +1040,7 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 10 }
+			position = { x = 6 y = 10 } #RT56 RP
 		}
 		
 		categories = {
@@ -1089,7 +1094,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 2 }
+			position = { x = 2 y = 2 } #RT56 RP
 		}
 		
 		categories = {
@@ -1158,7 +1163,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 4 }
+			position = { x = 2 y = 4 } #RT56 RP
 		}
 		
 		categories = {
@@ -1220,7 +1225,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 6 }
+			position = { x = 2 y = 6 } #RT56 RP
 		}
 		
 		categories = {
@@ -1280,7 +1285,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 10 }
+			position = { x = 2 y = 10 } #RT56 RP
 		}
 		
 		categories = {
@@ -1330,7 +1335,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 14 }
+			position = { x = 2 y = 14 } #RT56 RP
 		}
 		
 		categories = {
@@ -1387,7 +1392,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 0 }
+			position = { x = 2 y = 0 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -1421,7 +1426,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 0 }
+			position = { x = 4 y = 0 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -1495,7 +1500,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 2 }
+			position = { x = 2 y = 2 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -1528,7 +1533,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 2 }
+			position = { x = 4 y = 2 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -1589,7 +1594,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 4 }
+			position = { x = 2 y = 4 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -1646,7 +1651,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 4 }
+			position = { x = 4 y = 4 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -1713,7 +1718,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 6 }
+			position = { x = 2 y = 6 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -1746,7 +1751,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 6 }
+			position = { x = 4 y = 6 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -1809,7 +1814,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 8 }
+			position = { x = 2 y = 8 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -1844,14 +1849,14 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 8 }
+			position = { x = 4 y = 8 } #RT56 RP
 		}
 		
 		ai_will_do = {
-			base = 0
+			factor = 0
 			modifier = {
 
-				add = 5.0
+				factor = 5.0
 				OR = {
 					oil > 0
 					aluminium > 0
@@ -1907,7 +1912,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 10 }
+			position = { x = 2 y = 10 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -1932,15 +1937,16 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 10 }
+			position = { x = 4 y = 10 } #RT56 RP
 		}
 		
 		ai_will_do = {
-			base = 0
+			factor = 0
 			
 			modifier = {
-				add = 1
+				factor = 1
 				OR = {
+
 					oil > 0
 					aluminium > 0
 					rubber > 0
@@ -1994,7 +2000,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 12 }
+			position = { x = 2 y = 12 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2018,14 +2024,14 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 12 }
+			position = { x = 4 y = 12 } #RT56 RP
 		}
 		
 		ai_will_do = {
-			base = 0
+			factor = 0
 			
 			modifier = {
-				add = 1
+				factor = 1
 				OR = {
 
 					oil > 0
@@ -2081,7 +2087,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 14 }
+			position = { x = 2 y = 14 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2105,14 +2111,14 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 14 }
+			position = { x = 4 y = 14 } #RT56 RP
 		}
 		
 		ai_will_do = {
-			base = 0
+			factor = 0
 			
 			modifier = {
-				add = 1
+				factor = 1.0
 				OR = {
 
 					oil > 0
@@ -2163,7 +2169,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 16 }
+			position = { x = 2 y = 16 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2187,14 +2193,14 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 16 }
+			position = { x = 4 y = 16 } #RT56 RP
 		}
 		
 		ai_will_do = {
-			base = 0
+			factor = 0
 			
 			modifier = {
-				add = 1
+				factor = 1.0
 				OR = {
 
 					oil > 0
@@ -2246,7 +2252,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 5 }
+			position = { x = 4 y = 5 } #RT56 RP
 		}
 		
 		categories = {
@@ -2312,7 +2318,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 8 }
+			position = { x = 4 y = 8 } #RT56 RP
 		}
 		
 		categories = {
@@ -2374,7 +2380,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 12 }
+			position = { x = 4 y = 12 } #RT56 RP
 		}
 		
 		categories = {
@@ -2431,7 +2437,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 16 }
+			position = { x = 4 y = 16 } #RT56 RP
 		}
 		
 		categories = {
@@ -2479,7 +2485,7 @@ technologies = {
 
 	flexible_line_a = {
 
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.075
 		line_change_production_efficiency_factor = 0.2
 		
 		path = {
@@ -2492,7 +2498,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 12 }
+			position = { x = 1 y = 12 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2507,7 +2513,7 @@ technologies = {
 	
 	streamlined_line_a = {
 
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.075
 		production_factory_efficiency_gain_factor = 0.1
 		
 		path = {
@@ -2520,7 +2526,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 12 }
+			position = { x = 3 y = 12 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2535,7 +2541,7 @@ technologies = {
 	
 	streamlined_line_b = {
 	
-		production_factory_max_efficiency_factor = 0.10
+		production_factory_max_efficiency_factor = 0.05
 		
 		path = {
 			leads_to_tech = streamlined_line_c
@@ -2547,7 +2553,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 14 }
+			position = { x = 2 y = 14 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2562,7 +2568,7 @@ technologies = {
 	
 	streamlined_line_c = {
 
-		production_factory_max_efficiency_factor = 0.10
+		production_factory_max_efficiency_factor = 0.05
 		
 		path = {
 			leads_to_tech = streamlined_line_d
@@ -2574,7 +2580,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 16 }
+			position = { x = 2 y = 16 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2589,14 +2595,14 @@ technologies = {
 	
 	streamlined_line_d = {
 
-		production_factory_max_efficiency_factor = 0.10
+		production_factory_max_efficiency_factor = 0.05
 			
 		research_cost = 2.6
 		start_year = 1954
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 18 }
+			position = { x = 2 y = 18 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2629,7 +2635,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 12 }
+			position = { x = 6 y = 12 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2665,7 +2671,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 12 }
+			position = { x = 8 y = 12 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2700,7 +2706,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 14 }
+			position = { x = 6 y = 14 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2736,7 +2742,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 14 }
+			position = { x = 8 y = 14 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2770,7 +2776,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 16 }
+			position = { x = 6 y = 16 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2806,7 +2812,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 16 }
+			position = { x = 8 y = 16 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2835,7 +2841,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 18 }
+			position = { x = 6 y = 18 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2866,7 +2872,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 18 }
+			position = { x = 8 y = 18 } #RT56 RP
 		}
 		
 		ai_will_do = {
@@ -2891,7 +2897,7 @@ steel_production_1 = {
 
 	enable_building = {
 		building = steel_mill
-		level = 3
+		level = 1 #RT56 RP
 	}
 	
 	path = {
@@ -2904,7 +2910,7 @@ steel_production_1 = {
 	
 	folder = {
 		name = industry_folder
-		position = { x = 0 y = 0 }
+		position = { x = 2 y = 0 } #RT56 RP
 	}
 		
 	categories = {
@@ -2932,7 +2938,7 @@ steel_production_2 = {
 		modify_building_resources = {
 			building = steel_mill
 			resource = steel
-			amount = 2
+			amount = 8 #RT56 RP
 		}
 	}
 
@@ -2946,7 +2952,7 @@ steel_production_2 = {
 	
 	folder = {
 		name = industry_folder
-		position = { x = 0 y = 8 }
+		position = { x = 2 y = 8 } #RT56 RP
 	}
 	
 	categories = {
@@ -2981,7 +2987,7 @@ steel_production_3 = {
 		modify_building_resources = {
 			building = steel_mill
 			resource = steel
-			amount = 2
+			amount = 8 #RT56 RP
 		}
 	}
 	
@@ -2995,7 +3001,7 @@ steel_production_3 = {
 	
 	folder = {
 		name = industry_folder
-		position = { x = 0 y = 14 }
+		position = { x = 2 y = 14 } #RT56 RP
 	}
 	
 	categories = {
@@ -3029,7 +3035,7 @@ steel_production_4 = {
 		modify_building_resources = {
 			building = steel_mill
 			resource = steel
-			amount = 2
+			amount = 8 #RT56 RP
 		}
 	}
 	
@@ -3038,7 +3044,7 @@ steel_production_4 = {
 	
 	folder = {
 		name = industry_folder
-		position = { x = 0 y = 18 }
+		position = { x = 2 y = 18 } #RT56 RP
 	}
 	
 	categories = {
@@ -3074,7 +3080,7 @@ aluminum_production_1 = {
 
 	enable_building = {
 		building = aluminum_mill
-		level = 3
+		level = 1 #RT56 RP
 	}
 	
 	path = {
@@ -3087,7 +3093,7 @@ aluminum_production_1 = {
 	
 	folder = {
 		name = industry_folder
-		position = { x = 2 y = 0 }
+		position = { x = 4 y = 0 } #RT56 RP
 	}
 		
 	categories = {
@@ -3114,7 +3120,7 @@ aluminum_production_2 = {
 		modify_building_resources = {
 			building = aluminum_mill
 			resource = aluminium
-			amount = 2
+			amount = 8 #RT56 RP
 		}
 	}
 	
@@ -3128,7 +3134,7 @@ aluminum_production_2 = {
 	
 	folder = {
 		name = industry_folder
-		position = { x = 2 y = 8 }
+		position = { x = 4 y = 8 } #RT56 RP
 	}
 		
 	categories = {
@@ -3162,7 +3168,7 @@ aluminum_production_3 = {
 		modify_building_resources = {
 			building = aluminum_mill
 			resource = aluminium
-			amount = 2
+			amount = 8 #RT56 RP
 		}
 	}
 	
@@ -3176,7 +3182,7 @@ aluminum_production_3 = {
 	
 	folder = {
 		name = industry_folder
-		position = { x = 2 y = 14 }
+		position = { x = 4 y = 14 } #RT56 RP
 	}
 		
 	categories = {
@@ -3209,7 +3215,7 @@ aluminum_production_4 = {
 		modify_building_resources = {
 			building = aluminum_mill
 			resource = aluminium
-			amount = 2
+			amount = 8 #RT56 RP
 		}
 	}
 	
@@ -3222,7 +3228,7 @@ aluminum_production_4 = {
 	
 	folder = {
 		name = industry_folder
-		position = { x = 2 y = 18 }
+		position = { x = 4 y = 18 } #RT56 RP
 	}
 		
 	categories = {
@@ -3249,8 +3255,180 @@ aluminum_production_4 = {
 
 	desc = aluminum_production_tt
 }
-###------> X <><> <><> <><> <><> <><>
+###------> X <><> <><> <><> <><> <><> #RT56 RP BELOW
 
+###------> Industrial Expansion <><> <><> <><> <><> <><>
+
+	industrial_expansion_tech_1 = {
+		
+		#allow = {}
+
+		enable_building = {
+			building = industrial_expansion
+			level = 1
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		path = {
+			leads_to_tech = industrial_expansion_tech_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+	}
+	
+	industrial_expansion_tech_2 = {
+		enable_building = {
+			building = industrial_expansion
+			level = 2
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = industrial_expansion_tech_3
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+		
+		research_cost = 1
+		start_year = 1937
+	}
+	
+	industrial_expansion_tech_3 = {
+		enable_building = {
+			building = industrial_expansion
+			level = 3
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		path = {
+			leads_to_tech = industrial_expansion_tech_4
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+		
+		research_cost = 1
+		start_year = 1939
+	}
+	
+	industrial_expansion_tech_4 = {
+		enable_building = {
+			building = industrial_expansion
+			level = 4
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = industrial_expansion_tech_5
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+		
+		research_cost = 1
+		start_year = 1941
+	}
+	
+	industrial_expansion_tech_5 = {
+		enable_building = {
+			building = industrial_expansion
+			level = 5
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 10 }
+		}
+		
+		path = {
+			leads_to_tech = industrial_expansion_tech_6
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+		
+		research_cost = 1
+		start_year = 1943
+	}
+	
+	industrial_expansion_tech_6 = {
+		enable_building = {
+			building = industrial_expansion
+			level = 6
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 12 }
+		}
+		
+		#path = {
+		#	leads_to_tech = industrial_expansion_tech_7
+		#	research_cost_coeff = 1
+		#}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+		
+		research_cost = 1
+		start_year = 1945
+	}
 }
 
 #####---------------------------------------------------------------------> End

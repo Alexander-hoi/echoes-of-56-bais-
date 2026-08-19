@@ -332,6 +332,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
 		research_cost = 2
 		start_year = 1938
 
@@ -834,7 +838,22 @@ technologies = {
 		}
 
 		ai_will_do = {
-			base = 0	#r56: badly balanced, don't self-sabotage
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1946.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1947.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1948.1.1"
+			}
 		}
 
 		categories = {
@@ -1126,7 +1145,7 @@ technologies = {
 			r56_tank_coaxial_support_cannon
 		}
 
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1943
 		folder = {
 			name = nsb_armour_folder
@@ -1181,16 +1200,6 @@ technologies = {
 					ITA_add_hand_of_god_sh_tank_template_and_production = yes
 				}
 			}
-
-			if = {
-				limit = {
-					has_dlc = "Gotterdammerung"
-				}
-				custom_effect_tooltip = {
-					localization_key = SP_UNLOCK_PROJECT
-					PROJECT = sp_land_land_cruiser	
-				}
-			}
 		}
 
 		ai_will_do = {
@@ -1203,7 +1212,6 @@ technologies = {
 			cat_heavy_armor
 			mio_cat_tech_heavy_armor_and_modules
 		}
-		special_project_specialization = { specialization_land }
 	}
 
 	armor_tech_1 = {
@@ -1983,27 +1991,9 @@ technologies = {
 			 has_dlc = "Gotterdammerung"
 		}
 
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_land_land_cruiser
-			}
-		}
-
-		path = {
-			leads_to_tech = sp_armored_lc_weapon_fire_control_tech
-			research_cost_coeff = 1
-		}
-
-		is_special_project_tech = yes
-
-		land_cruiser = {
-			maximum_speed  = 0.05
-			supply_consumption  = -0.02
-		}
-
 		super_heavy_armor = {
 			maximum_speed  = 0.05
-			supply_consumption  = -0.02
+			supply_consumption  = -0.05
 		}
 
 		research_cost = 1
@@ -2049,7 +2039,6 @@ technologies = {
 			cat_heavy_armor
 			mio_cat_tech_heavy_armor_and_modules
 		}
-		special_project_specialization = { specialization_land }
 	}
 
 	sp_armored_lc_transmission_improvements_tech = {
@@ -2057,52 +2046,26 @@ technologies = {
 			 has_dlc = "Gotterdammerung"
 		}
 
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_land_land_cruiser
-			}
-		}
-
-		path = {
-			leads_to_tech = sp_armored_lc_weapon_fire_control_tech
-			research_cost_coeff = 1
-		}
-
-		is_special_project_tech = yes
-
-		land_cruiser = {
-			reliability = 0.05
-			supply_consumption = -0.02
-
-			forest = {
-				movement = 0.2
-			}
-			hills = {
-				movement = 0.2
-			}
-			mountain = 	{
-				movement = 0.2
-			}
-			jungle = {
-				movement = 0.2
-			}
-		}
-
 		super_heavy_armor = {
-			reliability = 0.05
-			supply_consumption = -0.02
-
 			forest = {
 				movement = 0.2
+				defense = 0.1
+				attack = 0.1
 			}
 			hills = {
 				movement = 0.2
+				defense = 0.1
+				attack = 0.1
 			}
 			mountain = 	{
 				movement = 0.2
+				defense = 0.1
+				attack = 0.1
 			}
 			jungle = {
 				movement = 0.2
+				defense = 0.1
+				attack = 0.1
 			}
 		}
 
@@ -2149,7 +2112,6 @@ technologies = {
 			cat_heavy_armor
 			mio_cat_tech_heavy_armor_and_modules
 		}
-		special_project_specialization = { specialization_land }
 	}
 
 	sp_armored_lc_specialized_field_manuals_tech = {
@@ -2157,20 +2119,7 @@ technologies = {
 			 has_dlc = "Gotterdammerung"
 		}
 
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_land_land_cruiser
-			}
-		}
-
-		path = {
-			leads_to_tech = sp_armored_lc_weapon_fire_control_tech
-			research_cost_coeff = 1
-		}
-
-		is_special_project_tech = yes
-
-		land_cruiser = {
+		super_heavy_armor = {
 			entrenchment = 0.05
 			max_strength = 0.05
 			max_organisation = 10
@@ -2219,128 +2168,5 @@ technologies = {
 			cat_heavy_armor
 			mio_cat_tech_heavy_armor_and_modules
 		}
-		special_project_specialization = { specialization_land }
-	}
-
-	sp_armored_lc_weapon_fire_control_tech = {
-		allow_branch = {
-			 has_dlc = "Gotterdammerung"
-		}
-
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_land_land_cruiser
-			}
-		}
-
-		is_special_project_tech = yes
-
-		land_cruiser = {
-			breakthrough = 0.1
-			defense = 0.1
-		}
-
-		research_cost = 1
-		start_year = 1945
-		
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 9 y = 14 }
-		}
-
-		folder = {
-			name = armour_folder
-			position = { x = 12 y = 14 }
-		}
-
-		show_effect_as_desc = yes
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1944.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1945.1.1"
-			}
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-			cat_heavy_armor
-			mio_cat_tech_heavy_armor_and_modules
-		}
-		special_project_specialization = { specialization_land }
-	}
-
-	sp_armored_lc_high_impact_obliterator_cannon_tech = {
-		allow_branch = {
-			 has_dlc = "Gotterdammerung"
-		}
-
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_land_land_cruiser
-			}
-		}
-
-		is_special_project_tech = yes
-
-		research_cost = 1
-		start_year = 1943
-		
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 13 y = 12 }
-		}
-
-		enable_equipment_modules = {
-			lc_high_impact_obliterator_cannon			
-		}
-
-		show_effect_as_desc = yes
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1944.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1945.1.1"
-			}
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-			cat_heavy_armor
-			mio_cat_tech_heavy_armor_and_modules
-		}
-		special_project_specialization = { specialization_land }
 	}
 }
