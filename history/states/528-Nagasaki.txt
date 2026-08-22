@@ -21,7 +21,7 @@ state={
 			dockyard = 3
 			arms_factory = 2
 			industrial_complex = 1
-			steel_mill = 2 #Yahata Steel Works
+			steel_mill = 1 #Yahata Steel Works
 			9950 = {
 				naval_base = 6
 			}

@@ -356,7 +356,7 @@
  STATE_280:0 "Mato Grosso"
  STATE_281:0 "Maldive Islands"
  STATE_282:0 "Kanto"
- STATE_283:0 "Gansu" #R56 - Formerly Kansu
+ STATE_283:0 "Gansu" 
  STATE_284:0 "Wellington"
  STATE_285:0 "New South Wales"
  STATE_286:1 "Cochinchina"
@@ -509,8 +509,8 @@
  STATE_420:0 "Gilan"
  STATE_421:0 "Kordestan"
  STATE_422:0 "Ceylon"
- STATE_423:0 "Madras" # was Madurai, but Madras has it seems a greater role
- STATE_424:0 "Andhra" # was madras but is too far to the north, fits the Andhra state
+ STATE_423:0 "Madras" 
+ STATE_424:0 "Andhra" 
  STATE_425:0 "Mysore"
  STATE_426:0 "Orissa"
  STATE_427:0 "Hyderabad"
@@ -563,8 +563,8 @@
  STATE_468:0 "Saint Lawrence"
  STATE_469:0 "Saskatchewan"
  STATE_470:0 "Alberta"
- STATE_471:1 "Northern B.C." # so it fits
- STATE_472:1 "NW. Territories" # so it fits
+ STATE_471:1 "Northern B.C." 
+ STATE_472:1 "NW. Territories" 
  STATE_473:0 "British Columbia"
  STATE_474:0 "Yucatán"
  STATE_475:0 "Chiapas"
@@ -625,7 +625,7 @@
  STATE_530:0 "Shikoku"
  STATE_531:0 "Kansai"
  STATE_532:0 "Tokai"
- STATE_533:0 "Northern Tohoku" #R56 - Previously just Tohoku
+ STATE_533:0 "Northern Tohoku" 
  STATE_534:0 "Hokuriku"
  STATE_535:0 "Koshinetsu"
  STATE_536:0 "Hokkaido"
@@ -698,11 +698,11 @@
  STATE_601:0 "Western Kham"
  STATE_602:0 "Hunan"
  STATE_603:0 "Guizhou"
- STATE_604:0 "Yushu" #R56 - Formerly Gyegu
+ STATE_604:0 "Yushu" 
  STATE_605:0 "Sichuan"
  STATE_606:0 "Anhui"
  STATE_607:0 "Henan"
- STATE_608:0 "Beiping" # renamed to Beijing later 
+ STATE_608:0 "Beiping" 
  JAP_STATE_608:0 "Peking" 
  STATE_609:0 "East Hebei"
  STATE_610:0 "Rehe"
@@ -722,7 +722,7 @@
  STATE_624:0 "Bicol Islands"
  STATE_625:0 "Eastern Visayas"
  STATE_626:0 "Palawan"
- STATE_627:0 "Davao" # was Mindanao
+ STATE_627:0 "Davao" 
  STATE_628:0 "Western Visayas"
  STATE_629:0 "Hawai'i"
  STATE_630:0 "Johnston Atoll"
@@ -756,7 +756,7 @@
  STATE_657:0 "Birobidzhan"
  STATE_658:0 "Trucial Coast"
  STATE_659:0 "Aden"
- STATE_660:0 "Ubangi-Shari"  # R56 - Proper name of the CAR during French colonisation
+ STATE_660:0 "Ubangi-Shari"  
  STATE_661:0 "Tripolitania"
  STATE_662:0 "Sirte"
  STATE_663:0 "Cyrenaica"
@@ -820,7 +820,7 @@
  STATE_720:0 "South Georgia"
  STATE_721:0 "Timor-Leste"
  STATE_722:0 "Petsamo"
- STATE_723:0 "Canterbury" # Was South Island
+ STATE_723:0 "Canterbury" 
  STATE_724:0 "Kra Isthmus"
  MAL_STATE_724:0 "Northern Malaya"
  STATE_725:0 "Nauru"
@@ -842,7 +842,7 @@
  AUS_STATE_736:0 "Küstenland"
  STATE_737:0 "Bismarck Islands"
  STATE_738:0 "Aru Islands"
- STATE_739:0 "Queen Charlotte Islands" # R56 - formerly the anachronistic Haida Gwaii
+ STATE_739:0 "Queen Charlotte Islands" 
  STATE_740:0 "Vancouver Island"
  STATE_741:0 "Cambodia"
  STATE_742:2 "Tajikistan"
@@ -856,9 +856,9 @@
  STATE_750:0 "Changde"
  STATE_751:0 "Liangshan"
  STATE_752:1 "Ganzi"
- STATE_753:0 "Songpan" #R56 - Formerly Gannan
- STATE_754:0 "Qinghai" #R56 - Formerly Golog
- STATE_755:0 "Dulan" #R56 - Formerly Qinghai
+ STATE_753:0 "Songpan" 
+ STATE_754:0 "Qinghai" 
+ STATE_755:0 "Dulan" 
  STATE_756:0 "Jiuquan"
  STATE_757:0 "Ü-Tsang"
  STATE_758:0 "Ngari Khorsum"
@@ -971,11 +971,11 @@
  STATE_858:0 "Jafurah"
  STATE_859:0 "Dammam"
  STATE_860:1 "Cote-Nord"
- STATE_861:0 "Quebec Central" # fictitious as it's quite remote
+ STATE_861:0 "Quebec Central" 
  STATE_862:1 "Ouest du Quebec"
  STATE_863:0 "Saguenay"
  STATE_864:1 "Yukon Territory"
- STATE_865:0 "N. Saskatchewan" # so it fits
+ STATE_865:0 "N. Saskatchewan" 
  STATE_866:0 "Northwestern Ontario"
  STATE_867:0 "Northern Manitoba"
  STATE_868:0 "Isan"
@@ -1212,7 +1212,7 @@
  STATE_1073:0 "Amazonas del Norte"
  STATE_1074:0 "Easter Island"
  RAP_STATE_1074:0 "Rapa Nui"
- STATE_1075:0 "Golog" #R56 - Formerly Gyarong
+ STATE_1075:0 "Golog" 
  STATE_1076:0 "Channel Islands"
  STATE_1077:0 "Chaco Boreal"
  STATE_1078:0 "Southern Sudetenland"
@@ -1256,23 +1256,23 @@
  STATE_1102:0 "Oman"
  STATE_1103:0 "Dhofar"
  STATE_1104:0 "South Transdanubia"
- STATE_1105: "Southern Kyushu" #R56 - Changed the default name to be in english
+ STATE_1105: "Southern Kyushu" 
  JAP_STATE_1105:0 "Minami Kyūshū"
- STATE_1106: "Southern Tohoku" #R56 - Changed the default name to be in english
+ STATE_1106: "Southern Tohoku" 
  JAP_STATE_1106:0 "Minami Tohoku"
  STATE_1107: "San'in"
  STATE_1108: "Zamboanga"
  STATE_1109: "Northern Mindanao"
  STATE_1110: "Bataan"
  STATE_1111: "Yan'an"
- STATE_1112: "Nanlu" # was Fangchenggang
+ STATE_1112: "Nanlu" 
  STATE_1113: "Suzhou"
  STATE_1114: "Nanjing"
  STATE_1115: "Wuhan"
  STATE_1116: "Chongqing"
  STATE_1117: "Jinan"
- STATE_1118: "Chanan" # R56 - More appropriate name than Hebei-Chahar
- STATE_1119: "Ejin" #R56 - Formerly Alxa
+ STATE_1118: "Chanan" 
+ STATE_1119: "Ejin" 
  STATE_1120: "Chengdu"
  STATE_1121: "Kunlun Shan"
  STATE_1122: "Pailingmiao"
@@ -1300,4 +1300,5 @@
  STATE_1142: "Dutch Timor"
  TML_STATE_1142: "West Timor"
  STATE_1143: "Vorstenlanden"
-
+ STATE_1145: "Lower Cyrenaica"
+ STATE_1146: "Lower Matrouh"

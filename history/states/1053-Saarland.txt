@@ -15,7 +15,7 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-			steel_mill = 2
+			steel_mill = 1
 
 		}
 		add_core_of = GER

@@ -13533,3 +13533,10 @@
 13532;211;26;5;land;true;plains;6
 13533;190;6;67;land;true;mountain;6
 13534;230;34;219;land;true;jungle;6
+13535;122;200;34;land;false;desert;5
+13536;122;20;35;land;false;desert;5
+13537;122;20;200;land;false;desert;5
+13538;122;20;202;land;false;desert;5
+13539;122;20;10;land;false;desert;5
+13540;122;220;10;land;false;desert;5
+13541;122;220;101;land;false;desert;5
