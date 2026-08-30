@@ -4479,32 +4479,3 @@ country_event = { #Ad Halom
 		activate_mission = ISR_survival_mission
 	}
 }
-news_event = {
-	id = israel.1000
-	title = israel.1000.t
-	desc = israel.1000.d
-	is_triggered_only = yes
-	major = yes
-	picture = GFX_news_event_isr_arabs_invade
-	option = {
-		name = israel.1000.a
-		trigger = {
-			original_tag = ISR
-		}
-	}
-	option = {
-		name = israel.1000.b
-		trigger = {
-			has_country_flag = MPL_arab_declaring_war
-		}
-	}
-	option = {
-		name = israel.1000.c
-		trigger = {
-			NOT = {
-				has_country_flag = MPL_arab_declaring_war
-				original_tag = ISR
-			}
-		}
-	}
-}
